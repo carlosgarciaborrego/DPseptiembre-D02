@@ -37,7 +37,7 @@
 	
 	<bean name="challenge2" class="acme.entities.challenges.Challenge">
 		<property name="title" value="Reto 2" />
-		<property name="deadline" value="2020/11/31 23:59"/>
+		<property name="deadline" value="2020/11/27 23:59"/>
 		<property name="description" value="Descripción del reto 2" />
 		<property name="goalRookie" value="Anota 10 puntos" />
 		<property name="rewardRookie">
