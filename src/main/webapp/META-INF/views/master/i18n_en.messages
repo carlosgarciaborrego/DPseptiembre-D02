@@ -30,12 +30,25 @@ master.menu.sign-out = Sign out
 
 master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link = Favourite link Carlos
+master.menu.anonymous.listNotice = Notice List
+master.menu.anonymous.listTechRec = TechnologyRecord List
+master.menu.anonymous.listToolRec = ToolRecord List
 
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
+master.menu.administrator.listNotice = Notice List
+
+# master.menu.authenticated ########################################################
+master.menu.authenticated = Authenticated
+master.menu.authenticated.listNotice = Notice List
+master.menu.authenticated.listTechRec = TechnologyRecord List
+master.menu.authenticated.listToolRec = ToolRecord List
+master.menu.authenticated.listInquiry = Inquiry List
+master.menu.authenticated.listOverture = Overture List
+master.menu.authenticated.listChallenge = Challenge List
 
 # master.menu.provider ########################################################
 

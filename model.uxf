@@ -296,4 +296,123 @@ m2=*
 has v</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>189</x>
+      <y>357</y>
+      <w>231</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>Notice
+--
++ picture: String {NotBlank}
++ title: String {NotBlank}
++ creation: Date {TemporalType.TIMESTAMP}
++ deadline: Date {TemporalType.TIMESTAMP}
++ body: String {NotBlank}
++ links: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>28</x>
+      <y>462</y>
+      <w>224</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>Inquiry
+--
++ title: String {NotBlank}
++ creation: Date {TemporalType.TIMESTAMP}
++ deadline: Date {TemporalType.TIMESTAMP}
++ paragraphs: String {NotBlank}
++ minPrice: Money {NotNull}
++ maxPrice: Money {NotNull}
++ email: String {NotBlank, Email}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>448</x>
+      <y>357</y>
+      <w>224</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>Overture
+--
++ title: String {NotBlank}
++ creation: Date {TemporalType.TIMESTAMP}
++ deadline: Date {TemporalType.TIMESTAMP}
++ paragraphs: String {NotNull}
++ minPrice: Money {NotNull}
++ maxPrice: MOney {NotNull}
++ email: String {NotBlank, Email}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>728</x>
+      <y>357</y>
+      <w>196</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>Tecnology Record
+--
++ title: String {NotBlank}
++ activitySector: String {NotBlank}
++ inspectorName: String {NotBlank}
++ description: String {NotBlank}
++ website: String {NotBlank}
++ email: String {NotBlank, Email}
++ openSource: Boolean {NotNull}
++ starts: int {Range(min= -5, max= 5)} </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>490</y>
+      <w>196</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>Tool Record
+--
++ title: String {NotNull}
++ activitySector: String {NotBlank}
++ inventorName: String {NotBlank}
++ description: String {NotBlank}
++ website: String {NotBlank}
++ email: String {NotBlank}
++ openSource: Boolean {NotNull}
++ starts: int {Range(min= -5,max= 5)}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>623</x>
+      <y>490</y>
+      <w>224</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>Challenge
+--
++ title: String {NotBlank}
++ deadline: Date {TemporalType.TIMESTAMP}
++ description: String {NotBlank}
++ goalRookie: String {NotBlank}
++ rewardRookie: Money {NotNull}
++ goalAverage: String {NotBlank}
++ rewardAverage: Money {NotNull}
++ goalExpert: String {NotBlank}
++ rewardExpert: Money {NotNull}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>

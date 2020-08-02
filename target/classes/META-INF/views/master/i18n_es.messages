@@ -30,12 +30,25 @@ master.menu.sign-out = Salir
 
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito de Carlos
+master.menu.anonymous.listNotice = Listar Noticias
+master.menu.anonymous.listTechRec = Listar Registros Tecnológicos
+master.menu.anonymous.listToolRec = Listar Registros Herramientas
 
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
+master.menu.administrator.listNotice = Listar Noticias
+
+# master.menu.authenticated ########################################################
+master.menu.authenticated = Autenticado
+master.menu.authenticated.listNotice = Listar Noticias
+master.menu.authenticated.listTechRec = Listar Registros Tecnológicos
+master.menu.authenticated.listToolRec = Listar Herramientas Tecnológicas
+master.menu.authenticated.listInquiry = Listar Investigaciones
+master.menu.authenticated.listOverture = Listar Propuestas
+master.menu.authenticated.listChallenge = Listar Retos
 
 # master.menu.provider ########################################################
 

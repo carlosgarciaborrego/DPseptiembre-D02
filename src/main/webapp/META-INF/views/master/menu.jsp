@@ -20,12 +20,25 @@
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.nba.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.listNotice" action="/anonymous/notice/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.listTechRec" action="/anonymous/technology-record/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.listToolRec" action="/anonymous/tool-record/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
+			<acme:menu-suboption code="master.menu.administrator.listNotice" action="/administrator/notice/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
+		</acme:menu-option>
+		
+		<acme:menu-option code="master.menu.authenticated" access="hasRole('Authenticated')">
+			<acme:menu-suboption code="master.menu.authenticated.listNotice" action="/authenticated/notice/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.listTechRec" action="/authenticated/technology-record/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.listToolRec" action="/authenticated/tool-record/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.listInquiry" action="/authenticated/inquiry/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.listOverture" action="/authenticated/overture/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.listChallenge" action="/authenticated/challenge/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
@@ -50,6 +63,7 @@
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.sign-out" action="/master/sign-out" access="isAuthenticated()"/>
+		
 	</acme:menu-right>
 </acme:menu-bar>
 
