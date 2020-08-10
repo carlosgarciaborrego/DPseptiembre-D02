@@ -19,7 +19,7 @@
 	
 	<bean name="challenge1" class="acme.entities.challenges.Challenge">
 		<property name="title" value="Reto 1" />
-		<property name="deadline" value="2020/05/31 23:59"/>
+		<property name="deadline" value="2020/05/25 23:59"/>
 		<property name="description" value="Descripción del reto 1" />
 		<property name="goalRookie" value="Consigue la bandera" />
 		<property name="rewardRookie">
@@ -82,7 +82,7 @@
 	</bean>
 	
 	<bean name="notice1" class="acme.entities.notices.Notice">
-		<property name="picture" value="Youtube" />
+		<property name="picture" value="https://fotoYoutube.png" />
 		<property name="title" value="Noticia 1" />
 		<property name="creation" value="2020/03/11 17:20" />
 		<property name="deadline" value="2020/04/11 17:19" />	
@@ -91,7 +91,7 @@
 	</bean>
 	
 	<bean name="notice2" class="acme.entities.notices.Notice">
-		<property name="picture" value="NBA" />
+		<property name="picture" value="https://NBA.com" />
 		<property name="title" value="Noticia 2" />
 		<property name="creation" value="2020/04/11 12:20" />
 		<property name="deadline" value="2020/11/10 11:19" />	
@@ -100,7 +100,7 @@
 	</bean>
 	
 	<bean name="notice3" class="acme.entities.notices.Notice">
-		<property name="picture" value="marca" />
+		<property name="picture" value="https://Youtube.com" />
 		<property name="title" value="Noticia 3" />
 		<property name="creation" value="2020/02/10 19:50" />
 		<property name="deadline" value="2020/12/10 08:10" />	

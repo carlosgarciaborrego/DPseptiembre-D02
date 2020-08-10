@@ -28,6 +28,7 @@ public class Notice extends DomainEntity {
 	private static final long	serialVersionUID	= -2511608418738211004L;
 
 	@NotBlank
+	@URL
 	private String				picture;
 
 	@NotBlank

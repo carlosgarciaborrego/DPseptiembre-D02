@@ -306,7 +306,7 @@ has v</panel_attributes>
     </coordinates>
     <panel_attributes>Notice
 --
-+ picture: String {NotBlank}
++ picture: String {NotBlank, URL}
 + title: String {NotBlank}
 + creation: Date {TemporalType.TIMESTAMP}
 + deadline: Date {TemporalType.TIMESTAMP}
@@ -370,7 +370,7 @@ has v</panel_attributes>
 + description: String {NotBlank}
 + website: String {NotBlank}
 + email: String {NotBlank, Email}
-+ openSource: Boolean {NotNull}
++ openSource: Boolean
 + starts: int {Range(min= -5, max= 5)} </panel_attributes>
     <additional_attributes/>
   </element>
@@ -390,7 +390,7 @@ has v</panel_attributes>
 + description: String {NotBlank}
 + website: String {NotBlank}
 + email: String {NotBlank}
-+ openSource: Boolean {NotNull}
++ openSource: Boolean 
 + starts: int {Range(min= -5,max= 5)}</panel_attributes>
     <additional_attributes/>
   </element>
